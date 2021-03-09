@@ -1,0 +1,126 @@
+2018-05-08 09:15:58|   0.0|  0.0|INFORM|FME 2018.0.0.0 Beta (20171128 - Build 18220 - WIN64)
+2018-05-08 09:15:58|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2018-05-08 09:15:58|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2018-05-08 09:15:58|   0.0|  0.0|INFORM|Permanent License.
+2018-05-08 09:15:58|   0.0|  0.0|INFORM|Machine host name is: ah-meisami-10
+2018-05-08 09:15:58|   0.0|  0.0|INFORM|START - ProcessID: 12648, peak process memory usage: 30008 kB, current process memory usage: 29880 kB
+2018-05-08 09:15:58|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/Ah_Meisami/Desktop/call wms from leaflet/data/safe\wb-xlate-1525754756999_9744' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{c11c1f99-f867-4c8b-b8d9-a3cb17b7c1cc}'
+2018-05-08 09:15:58|   0.1|  0.1|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\Ah_Meisami\Documents\FME\Formats
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\Ah_Meisami\AppData\Roaming\Safe Software\FME\Packages\18220\transformers;C:\Program Files\FME\transformers;C:\Users\Ah_Meisami\Documents\FME\Transformers
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\Ah_Meisami\Documents\FME\CoordinateSystems
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\Ah_Meisami\Documents\FME\CoordinateSystemExceptions
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\Ah_Meisami\Documents\FME\CoordinateSystemGridOverrides
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\Ah_Meisami\Documents\FME\CsmapTransformationExceptions
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\Ah_Meisami\Documents\FME\TransformerCategories
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `OSM_1'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Reader type is `OSM'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\Ah_Meisami\Desktop\call wms from leaflet\data\safe'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\AH_MEI~1\AppData\Local\Temp', set from environment variable `TEMP'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\Ah_Meisami\Desktop\call wms from leaflet\data\safe/'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'osm2geojson.fmw'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2018.0.0.0'
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|System Status: 62.35 GB of disk space available in the FME temporary folder (C:\Users\AH_MEI~1\AppData\Local\Temp)
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 16299)
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Platform: WIN64
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Locale: en_US
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Process limit is 63.94 GB of physical memory
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 191.83 GB of virtual memory
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 143.88 GB of virtual memory
+2018-05-08 09:15:58|   0.1|  0.0|INFORM|Creating writer for format: 
+2018-05-08 09:15:58|   0.2|  0.1|INFORM|Creating reader for format: OpenStreetMap (OSM) XML
+2018-05-08 09:15:58|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `OSM'
+2018-05-08 09:15:58|   0.3|  0.0|INFORM|FME Configuration: Source coordinate system for reader OSM_1[OSM] set to `LL84'
+2018-05-08 09:15:58|   0.3|  0.0|INFORM|Coordinate System `LL84' parameters: CS_NAME=`LL84' DESC_NM=`WGS84 datum, Latitude-Longitude; Degrees' DT_NAME=`WGS84' GROUP=`LL' MAP_SCL=`1' MAX_LAT=`90' MAX_LNG=`182' MIN_LAT=`-90' MIN_LNG=`-182' PROJ=`LL' QUAD=`1' SCL_RED=`1' SOURCE=`Mentor Software' UNIT=`DEGREE' 
+2018-05-08 09:15:58|   0.3|  0.0|INFORM|Loaded module 'OSM' from file 'C:\Program Files\FME\plugins/OSM.dll'
+2018-05-08 09:15:58|   0.3|  0.0|INFORM|FME API version of module 'OSM' matches current internal version (3.8 20171030)
+2018-05-08 09:15:58|   0.3|  0.0|INFORM|Reading the map features configuration file: 'fme_map_features_config.xml'
+2018-05-08 09:15:58|   0.3|  0.0|INFORM|Opening the OSM reader with source dataset 'C:\Users\Ah_Meisami\Desktop\data_iran_lavizan\1.data.osm\map.osm'
+2018-05-08 09:15:58|   0.4|  0.1|INFORM|Creating reader for format: XML (Extensible Markup Language)
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|Trying to find a DYNAMIC plugin for reader named `XML'
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|Loaded module 'XML' from file 'C:\Program Files\FME\plugins/XML.dll'
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|FME API version of module 'XML' matches current internal version (3.8 20171030)
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20171030)
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|Opening the XML reader with source dataset 'C:\Users\Ah_Meisami\Desktop\data_iran_lavizan\1.data.osm\map.osm'
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|Pre-processing xfMap 'C:\Program Files\FME\xml\osm\osm_xfmap.xml' with macro stylesheet 'C:\Program Files\FME\xfmap\xfmap_macro.xslt' into 'C:\Users\AH_MEI~1\AppData\Local\Temp\NOMACRO_XFMAP_1525754758977_12648.xml'
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|The XML Reader is using xfMap 'C:\Users\AH_MEI~1\AppData\Local\Temp\NOMACRO_XFMAP_1525754758977_12648.xml'
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_aixm.xml' is being used to map from URI to URI
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_citygml.xml' is being used to map from URI to URI
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_inspire.xml' is being used to map from URI to URI
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_sosi.xml' is being used to map from URI to URI
+2018-05-08 09:15:58|   0.4|  0.0|INFORM|The uri-map document 'C:\Program Files\FME\xml\urimap\gml_urimap.xml' is being used to map from URI to URI
+2018-05-08 09:15:59|   0.8|  0.3|INFORM|Reading source feature # 2500
+2018-05-08 09:15:59|   1.0|  0.3|INFORM|Creating writer for format: GeoJSON (Geographic JavaScript Object Notation)
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOJSON'
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|Loaded module 'GEOJSON' from file 'C:\Program Files\FME\plugins/JSON.dll'
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20171030)
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20171030)
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|Writer `GEOJSON_1' of type `GEOJSON' using group definition keyword `GEOJSON_1_DEF'
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20171030)
+2018-05-08 09:15:59|   1.0|  0.0|WARN  |GeoJSON Writer: All features being reprojected to WGS84
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|Opening the GEOJSON writer with destination dataset 'C:\Users\Ah_Meisami\Desktop\data_iran_lavizan\1.data.osm\1.json'
+2018-05-08 09:15:59|   1.0|  0.0|INFORM|FME Configuration: Destination coordinate system set to input coordinate system `LL84'
+2018-05-08 09:16:00|   1.4|  0.4|STATS |OSMPipeline::FillInDefinedAreas(TestFactory): Tested 673 input feature(s) -- 0 feature(s) passed and 673 feature(s) failed
+2018-05-08 09:16:00|   1.4|  0.0|STATS |OSMPipeline::OSMFeatureTypeAttrAdder(TeeFactory): Cloned 2 input feature(s) into 2 output feature(s)
+2018-05-08 09:16:00|   1.4|  0.0|STATS |OSMPipeline::relation_multipolygon_filter(TestFactory): Tested 2 input feature(s) -- 2 feature(s) passed and 0 feature(s) failed
+2018-05-08 09:16:00|   1.4|  0.0|STATS |OSMPipeline::relation_route_filter(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2018-05-08 09:16:00|   1.4|  0.0|STATS |OSMPipeline::relation_boundary_filter(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2018-05-08 09:16:00|   1.4|  0.0|STATS |OSMPipeline::relation_restriction_filter(TestFactory): Tested 0 input feature(s) -- 0 feature(s) passed and 0 feature(s) failed
+2018-05-08 09:16:00|   1.4|  0.0|INFORM|Emptying factory pipeline
+2018-05-08 09:16:00|   1.4|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 4399 input feature(s), wrote 4399 output feature(s): 21 matched merge filters, 21 were routed to output, 4378 could not be routed.
+2018-05-08 09:16:00|   1.4|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 4378 input feature(s) into 0 output feature(s)
+2018-05-08 09:16:00|   1.4|  0.0|STATS |building (OSM_1) Splitter(TeeFactory): Cloned 21 input feature(s) into 21 output feature(s)
+2018-05-08 09:16:00|   1.4|  0.0|STATS |building_OSM_1 Feature Counter -1 3(TeeFactory): Cloned 21 input feature(s) into 21 output feature(s)
+2018-05-08 09:16:00|   1.4|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 21 input feature(s), wrote 21 output feature(s): 0 matched merge filters, 21 were routed to output, 0 could not be routed.
+2018-05-08 09:16:00|   1.4|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-08 09:16:00|   1.4|  0.0|INFORM|Closing the GEOJSON writer
+2018-05-08 09:16:00|   1.4|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|INFORM|Feature output statistics for `GEOJSON' writer using keyword `GEOJSON_1':
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |                               Features Written
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |building                                                                    21
+2018-05-08 09:16:00|   1.4|  0.0|STATS |==============================================================================
+2018-05-08 09:16:00|   1.4|  0.0|STATS |Total Features Written                                                      21
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |                            Features Read Summary
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |amenity                                                                     83
+2018-05-08 09:16:00|   1.4|  0.0|STATS |barrier                                                                      2
+2018-05-08 09:16:00|   1.4|  0.0|STATS |building                                                                    21
+2018-05-08 09:16:00|   1.4|  0.0|STATS |highway                                                                    631
+2018-05-08 09:16:00|   1.4|  0.0|STATS |historic                                                                     1
+2018-05-08 09:16:00|   1.4|  0.0|STATS |landuse                                                                     13
+2018-05-08 09:16:00|   1.4|  0.0|STATS |leisure                                                                     16
+2018-05-08 09:16:00|   1.4|  0.0|STATS |natural                                                                      1
+2018-05-08 09:16:00|   1.4|  0.0|STATS |office                                                                       3
+2018-05-08 09:16:00|   1.4|  0.0|STATS |place                                                                        7
+2018-05-08 09:16:00|   1.4|  0.0|STATS |shop                                                                        13
+2018-05-08 09:16:00|   1.4|  0.0|STATS |tourism                                                                      2
+2018-05-08 09:16:00|   1.4|  0.0|STATS |unknown                                                                   3606
+2018-05-08 09:16:00|   1.4|  0.0|STATS |==============================================================================
+2018-05-08 09:16:00|   1.4|  0.0|STATS |Total Features Read                                                       4399
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |                           Features Written Summary
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|STATS |building                                                                    21
+2018-05-08 09:16:00|   1.4|  0.0|STATS |==============================================================================
+2018-05-08 09:16:00|   1.4|  0.0|STATS |Total Features Written                                                      21
+2018-05-08 09:16:00|   1.4|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 09:16:00|   1.4|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (21 feature(s) output)
+2018-05-08 09:16:00|   1.4|  0.0|INFORM|FME Session Duration: 1.7 seconds. (CPU: 1.2s user, 0.2s system)
+2018-05-08 09:16:00|   1.4|  0.0|INFORM|END - ProcessID: 12648, peak process memory usage: 94140 kB, current process memory usage: 89692 kB

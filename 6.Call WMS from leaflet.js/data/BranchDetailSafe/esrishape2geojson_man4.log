@@ -1,0 +1,101 @@
+2018-05-08 18:10:05|   0.0|  0.0|INFORM|FME 2018.0.0.0 Beta (20171128 - Build 18220 - WIN64)
+2018-05-08 18:10:05|   0.0|  0.0|INFORM|FME_HOME is 'C:\Program Files\FME\'
+2018-05-08 18:10:05|   0.0|  0.0|INFORM|FME Desktop Smallworld Edition (floating)
+2018-05-08 18:10:05|   0.0|  0.0|INFORM|Permanent License.
+2018-05-08 18:10:05|   0.0|  0.0|INFORM|Machine host name is: ah-meisami-10
+2018-05-08 18:10:05|   0.0|  0.0|INFORM|START - ProcessID: 3556, peak process memory usage: 30020 kB, current process memory usage: 29944 kB
+2018-05-08 18:10:05|   0.0|  0.0|INFORM|FME Configuration: Command line arguments are `C:\Program Files\FME\fme.exe' `C:/Users/Ah_Meisami/Desktop/call wms from leaflet/data/safe\wb-xlate-1525786803782_10328' `LOG_STANDARDOUT' `YES' `LogCountServerName' `{0419f5aa-8b5d-45ae-97b7-3be73ccd7c0b}'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Shared folders for formats are : C:\Program Files\FME\datasources;C:\Users\Ah_Meisami\Documents\FME\Formats
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Shared folders for transformers are : C:\Users\Ah_Meisami\AppData\Roaming\Safe Software\FME\Packages\18220\transformers;C:\Program Files\FME\transformers;C:\Users\Ah_Meisami\Documents\FME\Transformers
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Shared folders for coordinate systems are : C:\Users\Ah_Meisami\Documents\FME\CoordinateSystems
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Shared folders for coordinate system exceptions are : C:\Users\Ah_Meisami\Documents\FME\CoordinateSystemExceptions
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Shared folders for coordinate system grid overrides are : C:\Users\Ah_Meisami\Documents\FME\CoordinateSystemGridOverrides
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Shared folders for CS-MAP transformation exceptions are : C:\Users\Ah_Meisami\Documents\FME\CsmapTransformationExceptions
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Shared folders for transformer categories are : C:\Users\Ah_Meisami\Documents\FME\TransformerCategories
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Reader Keyword is `ESRISHAPE_1'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Writer Keyword is `MULTI_WRITER'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Writer Group Definition Keyword is `MULTI_WRITER_DEF'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Reader type is `ESRISHAPE'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Writer type is `MULTI_WRITER'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Current working folder is `C:\Users\Ah_Meisami\Desktop\call wms from leaflet\data\safe'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Temporary folder is `C:\Users\AH_MEI~1\AppData\Local\Temp', set from environment variable `TEMP'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: FME_HOME is `C:\Program Files\FME\'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: FME_BASE is 'no'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: FME_MF_DIR is 'C:\Users\Ah_Meisami\Desktop\call wms from leaflet\data\safe/'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: FME_MF_NAME is 'esrishape2geojson_man4.fmw'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: FME_PRODUCT_NAME is 'FME(R) 2018.0.0.0'
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|System Status: 61.67 GB of disk space available in the FME temporary folder (C:\Users\AH_MEI~1\AppData\Local\Temp)
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|System Status: 128.00 TB of virtual memory available
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Operating System: Microsoft Windows 10 64-bit  (Build 16299)
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Platform: WIN64
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Locale: en_US
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Code Page: 1252  (ANSI - Latin I)
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Process limit is 63.94 GB of physical memory
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Start freeing memory when process usage exceeds 191.83 GB of virtual memory
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|FME Configuration: Stop freeing memory when process usage is below 143.88 GB of virtual memory
+2018-05-08 18:10:05|   0.1|  0.0|INFORM|Creating writer for format: 
+2018-05-08 18:10:05|   0.2|  0.1|INFORM|Creating reader for format: Esri Shapefile
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Using Shape Reader to read shape files from folder `C:\Users\Ah_Meisami\Downloads\Compressed\Tehran-GIS-22-Gane-Jodagane-FULL-VIP_575766_3010\tahran_GIS (4)\tahran_GIS (4)/'
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|ESRISHAPE_1 Reader: Using enhanced geometry
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Shape Reader: Using simple donut geometry detection
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Shape Reader: Handling numeric types with standard integer and floating point types
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Shape Reader: Allowing attribute names with mixed case
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Opened Shape File 'C:\Users\Ah_Meisami\Downloads\Compressed\Tehran-GIS-22-Gane-Jodagane-FULL-VIP_575766_3010\tahran_GIS (4)\tahran_GIS (4)\man4.shp' for input
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Opened DBF File 'C:\Users\Ah_Meisami\Downloads\Compressed\Tehran-GIS-22-Gane-Jodagane-FULL-VIP_575766_3010\tahran_GIS (4)\tahran_GIS (4)\man4.dbf' for input
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|DBF Reader: Detected character encoding `windows-1252'
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|DBF File 'C:\Users\Ah_Meisami\Downloads\Compressed\Tehran-GIS-22-Gane-Jodagane-FULL-VIP_575766_3010\tahran_GIS (4)\tahran_GIS (4)\man4.dbf' has fields: AREA double, PERIMETER double, LINKS_QTY number(11,0), NEW_LU number(16,0), ACRES double
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Using MultiWriter with keyword `MULTI_WRITER' to output data (ID_ATTRIBUTE is `multi_writer_id')
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Writer output will be ordered by value of multi_writer_id
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Loaded module 'LogCount_func' from file 'C:\Program Files\FME\plugins/LogCount_func.dll'
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|FME API version of module 'LogCount_func' matches current internal version (3.8 20171030)
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Shape Reader: Bounding box of shapefile `C:\Users\Ah_Meisami\Downloads\Compressed\Tehran-GIS-22-Gane-Jodagane-FULL-VIP_575766_3010\tahran_GIS (4)\tahran_GIS (4)\MAN4' is: (540434.590003254,3953490.370001),(554793.109996746,3963664.22199962)
+2018-05-08 18:10:05|   0.2|  0.0|INFORM|Shape Reader: Bounding box of shapefile(s) selected from folder `C:\Users\Ah_Meisami\Downloads\Compressed\Tehran-GIS-22-Gane-Jodagane-FULL-VIP_575766_3010\tahran_GIS (4)\tahran_GIS (4)/' is: (540434.590003254,3953490.370001),(554793.109996746,3963664.22199962)
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|Creating writer for format: GeoJSON (Geographic JavaScript Object Notation)
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|Trying to find a DYNAMIC plugin for writer named `GEOJSON'
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|Loaded module 'GEOJSON' from file 'C:\Program Files\FME\plugins/JSON.dll'
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20171030)
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|FME Configuration: No destination coordinate system set
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20171030)
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|Writer `GEOJSON_1' of type `GEOJSON' using group definition keyword `GEOJSON_1_DEF'
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|FME API version of module 'GEOJSON' matches current internal version (3.8 20171030)
+2018-05-08 18:10:05|   0.3|  0.0|WARN  |GeoJSON Writer: All features being reprojected to WGS84
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|Opening the GEOJSON writer with destination dataset 'C:\Users\Ah_Meisami\Desktop\call wms from leaflet\man4.json'
+2018-05-08 18:10:05|   0.3|  0.0|INFORM|FME Configuration: Using FME Reprojection Engine
+2018-05-08 18:10:05|   0.5|  0.2|INFORM|Reading source feature # 2500
+2018-05-08 18:10:06|   0.7|  0.2|INFORM|Reading source feature # 5000
+2018-05-08 18:10:06|   0.9|  0.2|INFORM|Reading source feature # 7500
+2018-05-08 18:10:06|   1.0|  0.1|INFORM|Emptying factory pipeline
+2018-05-08 18:10:06|   1.0|  0.0|STATS |Router and Unexpected Input Remover(RoutingFactory): Tested 8922 input feature(s), wrote 8922 output feature(s): 8922 matched merge filters, 8922 were routed to output, 0 could not be routed.
+2018-05-08 18:10:06|   1.0|  0.0|STATS |Unexpected Input Remover Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-08 18:10:06|   1.0|  0.0|STATS |man4 (ESRISHAPE_1) Splitter(TeeFactory): Cloned 8922 input feature(s) into 8922 output feature(s)
+2018-05-08 18:10:06|   1.0|  0.0|STATS |man4_ESRISHAPE_1 Feature Counter -1 4(TeeFactory): Cloned 8922 input feature(s) into 8922 output feature(s)
+2018-05-08 18:10:06|   1.0|  0.0|STATS |Destination Feature Type Routing Correlator(RoutingFactory): Tested 8922 input feature(s), wrote 8922 output feature(s): 0 matched merge filters, 8922 were routed to output, 0 could not be routed.
+2018-05-08 18:10:06|   1.0|  0.0|STATS |Final Output Nuker(TeeFactory): Cloned 0 input feature(s) into 0 output feature(s)
+2018-05-08 18:10:07|   2.0|  1.0|INFORM|Closing the GEOJSON writer
+2018-05-08 18:10:07|   2.0|  0.0|INFORM|=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|INFORM|Feature output statistics for `GEOJSON' writer using keyword `GEOJSON_1':
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |                               Features Written
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |man4                                                                      8922
+2018-05-08 18:10:07|   2.0|  0.0|STATS |==============================================================================
+2018-05-08 18:10:07|   2.0|  0.0|STATS |Total Features Written                                                    8922
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |                            Features Read Summary
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |man4                                                                      8922
+2018-05-08 18:10:07|   2.0|  0.0|STATS |==============================================================================
+2018-05-08 18:10:07|   2.0|  0.0|STATS |Total Features Read                                                       8922
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |                           Features Written Summary
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|STATS |man4                                                                      8922
+2018-05-08 18:10:07|   2.0|  0.0|STATS |==============================================================================
+2018-05-08 18:10:07|   2.0|  0.0|STATS |Total Features Written                                                    8922
+2018-05-08 18:10:07|   2.0|  0.0|STATS |=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-=-
+2018-05-08 18:10:07|   2.0|  0.0|INFORM|Translation was SUCCESSFUL with 1 warning(s) (8922 feature(s) output)
+2018-05-08 18:10:07|   2.0|  0.0|INFORM|FME Session Duration: 2.2 seconds. (CPU: 1.8s user, 0.2s system)
+2018-05-08 18:10:07|   2.0|  0.0|INFORM|END - ProcessID: 3556, peak process memory usage: 97904 kB, current process memory usage: 86064 kB

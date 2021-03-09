@@ -1,0 +1,192 @@
+<html>
+
+<head>
+	<meta charset="utf-8" />
+	<link rel="stylesheet" charset="utf-8" href="leaflet/leaflet.css" />
+	<link rel="stylesheet" charset="utf-8" href="Leaflet.Coordinates/dist/Leaflet.Coordinates-0.1.5.css" />
+	<style>
+		.info {
+			padding: 6px 8px;
+			font: 14px/16px Tahoma, Helvetica, sans-serif;
+			background: white;
+			background: rgba(255, 255, 255, 0.8);
+			box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+			border-radius: 5px;
+		}
+
+		.info h4 {
+			margin: 0 0 5px;
+			color: #777;
+		}
+
+		.legend {
+			text-align: left;
+			line-height: 18px;
+			color: #555;
+			font-family: Tahoma;
+			font-size: 11;
+		}
+
+		.legend i {
+			width: 18px;
+			height: 18px;
+			float: left;
+			margin-right: 8px;
+			opacity: 0.7;
+		}
+	</style>
+
+	<script type="text/javascript" charset="utf-8" src="main.js"></script>
+	<script type="text/javascript" charset="utf-8" src="data/choropleth/us-states.js"></script>
+	<script type="text/javascript" charset="utf-8" src="data/choropleth/tehran-states.js"></script>
+	<script type="text/javascript">
+		function rendermap(darray) {
+			map = renderBaseMap('mapid1', 35.7343, 51.4222, 11);
+
+			function getColor(d) {
+				 return d > 1000 ? '#800026' :
+						d > 500 ? '#BD0026' :
+						d > 200 ? '#E31A1C' :
+						d > 100 ? '#FC4E2A' :
+						d > 50 ? '#FD8D3C' :
+						d > 20 ? '#FEB24C' :
+						d > 10 ? '#FED976' :
+						         '#FFEDA0';
+			}
+
+			function getColor2(d) {
+				return d > 1000 ? '#ffffd9' :
+						d > 700 ? '#081d58' :
+						d > 500 ? '#edf8b1' :
+						d > 200 ? '#c7e9b4' :
+						d > 100 ? '#7fcdbb' :
+						d > 50 ? '#41b6c4' :
+						d > 20 ? '#1d91c0' :
+						d > 10 ? '#225ea8' :
+						         '#253494';
+				
+			}
+
+			function style(feature) {
+				return {
+					fillColor: getColor(feature.properties.density),
+					weight: 2,
+					opacity: 1,
+					color: 'white',
+					dashArray: '3',
+					fillOpacity: 0.7
+				};
+			}
+
+			function style2(feature) {
+				randomNum = Math.floor(Math.random() * 1000) + 1;
+				return {
+					fillColor: getColor(randomNum),
+					weight: 2,
+					opacity: 1,
+					color: 'white',
+					dashArray: '3',
+					fillOpacity: 0.5
+				};
+			}
+
+			/*#############################################################*/
+			// control that shows state info on hover
+			var info = L.control();
+
+			info.onAdd = function (map) {
+				this._div = L.DomUtil.create('div', 'info');
+				this.update();
+				return this._div;
+			};
+
+			info.update = function (props) {
+				this._div.innerHTML = (props ? '<b>' + props.name + '</b><br />' + props.density + ' people / mi<sup>2</sup>' : null);
+			};
+
+			info.addTo(map);
+			/*#############################################################*/
+
+			/*===================================================================*/
+			function highlightFeature(e) {
+				var layer = e.target;
+
+				layer.setStyle({
+					weight: 5,
+					color: '#666',
+					dashArray: '',
+					fillOpacity: 0.7
+				});
+
+				if (!L.Browser.ie && !L.Browser.opera && !L.Browser.edge) {
+					layer.bringToFront();
+				}
+
+				info.update(layer.feature.properties);
+			}
+
+			var geojson;
+
+			function resetHighlight(e) {
+				geojson.resetStyle(e.target);
+				info.update();
+			}
+
+			function zoomToFeature(e) {
+				map.fitBounds(e.target.getBounds());
+			}
+
+			function onEachFeature(feature, layer) {
+				layer.on({
+					mouseover: highlightFeature,
+					mouseout: resetHighlight,
+					click: zoomToFeature
+				});
+			}
+			/*===================================================================*/
+
+			geojson = L.geoJson(statesData, {
+				style: style,
+				onEachFeature: onEachFeature
+			}).addTo(map);
+
+			L.geoJson(tehranStates, {
+				style: style2
+				// , onEachFeature: onEachFeature
+			}).addTo(map);
+
+
+			/*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+			var legend = L.control({ position: 'bottomleft' });
+
+			legend.onAdd = function (map) {
+
+				var div = L.DomUtil.create('div', 'info legend'),
+					grades = [0, 10, 20, 50, 100, 200, 500, 1000],
+					labels = [],
+					from, to;
+
+				for (var i = 0; i < grades.length; i++) {
+					from = grades[i];
+					to = grades[i + 1];
+
+					labels.push('<i style="background:' + getColor(from + 1) + '"></i> ' + (to ? to + '&ndash;' : '+') + from);
+				}
+
+				div.innerHTML = labels.join('<br>');
+				return div;
+			};
+
+			legend.addTo(map);
+			/*HHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHHH*/
+		}    
+	</script>
+</head>
+
+<body onload="rendermap();">
+	<div id="mapid1" style="width: 100%; height: 100%;"></div>
+	<br/>
+	<div id="mapid2" style="width: 100%; height: 100%;"></div>
+</body>
+
+</html>
